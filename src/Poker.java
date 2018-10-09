@@ -6,6 +6,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Poker {
+    public static boolean checkStraight(ArrayList<Card> t) {
+        for (int i = 0; i < 5; i++) {
+            if (t.get(0).rank != t.get(i).rank + i) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     //same colour
     public static boolean checkFlush(ArrayList<Card> t) {
@@ -17,20 +25,6 @@ public class Poker {
         }
         return true;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public static void readCard() {
