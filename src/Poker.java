@@ -6,10 +6,28 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Poker {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public static void readCard() {
         ArrayList allGames = new ArrayList();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Mao\\eclipse-workspace\\Comp4004a1\\data"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Mao\\eclipse-workspace\\Comp40004as1\\data"))) {
             String line;
             String[] tempArray;
             while ((line = br.readLine()) != null) {
@@ -61,8 +79,31 @@ public class Poker {
 
     }
 
+    //convert A JQK
+    public static int convert(String a) {
+        if (a.length() == 3) {
+            return 10;
+        } else {
+            if (a.charAt(1) == 74) {
+                return 11;
+            } else if (a.charAt(1) == 81) {
+                return 12;
+            } else if (a.charAt(1) == 75) {
+                return 13;
+            } else if (a.charAt(1) == 65) {
+                return 1;
+            } else {
+                int k = a.charAt(1) - 48;
+                return k;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        readCard();
 
 
+    }
 
 
 }

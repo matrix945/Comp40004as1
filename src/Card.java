@@ -3,9 +3,14 @@ public class Card implements Comparable<Card> {
     char suit;
     int rank;
 
+    public Card(char c , int r){
+        this.rank = r;
+        this.suit = c;
+    }
 
+    public Card(){
 
-
+    }
 
 
     public String toString() {
