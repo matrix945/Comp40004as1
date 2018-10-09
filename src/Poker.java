@@ -7,7 +7,16 @@ import java.util.Collections;
 
 public class Poker {
 
-
+    //same colour
+    public static boolean checkFlush(ArrayList<Card> t) {
+//        check the suit not same suit
+        for (int i = 0; i < 5; i++) {
+            if (t.get(0).suit != t.get(i).suit) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 
 

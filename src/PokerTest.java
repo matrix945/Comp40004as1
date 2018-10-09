@@ -9,11 +9,11 @@ import static org.junit.Assert.fail;
 public class PokerTest {
 
     @Test
-    public void test() {
-        fail("Not yet implemented");
-    }
+//    public void test() {
+//        fail("Not yet implemented");
+//    }
 
-    public void testCheckFlush() {
+    public void checkFlushtest() {
         Card a = new Card('C',4);
         Card b = new Card('C',6);
         Card c = new Card('C',8);
