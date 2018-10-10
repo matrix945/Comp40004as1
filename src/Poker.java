@@ -7,6 +7,26 @@ import java.util.Collections;
 
 public class Poker {
 
+    public boolean oneAwayFlush(ArrayList<Card> t){
+        int counter =0;
+        int position=0;
+        for (int i = 0; i < 5; i++) {
+            if (t.get(0).suit != t.get(i).suit) {
+                counter = counter +1;
+                position = i;
+            }
+        }
+        if (counter == 1){
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }
+
+
+
 
     //AABBC
     //AAABC
