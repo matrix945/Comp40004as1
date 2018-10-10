@@ -6,6 +6,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Poker {
+
+    //Full house: same 3+2
+    public static boolean checkFullHouse(ArrayList<Card> t) {
+
+        if ( (t.get(1).rank == t.get(2).rank) && (t.get(3).rank == t.get(4).rank) && (t.get(4).rank == t.get(5).rank) ){
+            return true;
+        }
+        if ( (t.get(4).rank == t.get(5).rank) && (t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank) ){
+            return true;
+        }
+        return false;
+    }
+
+
+
     public static boolean checkStraight(ArrayList<Card> t) {
         //special case
         if ( (t.get(0).rank == 1) && (t.get(1).rank == 10) && (t.get(2).rank == 11)&& (t.get(3).rank == 12) && (t.get(4).rank == 13) ){
