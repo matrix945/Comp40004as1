@@ -12,40 +12,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Poker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Poker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="243">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PokerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PokerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="567">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#309#315#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#813#819#0" expanded="true" />
-                <element signature="e#1301#1307#0" expanded="true" />
+                <element signature="e#453#459#0" expanded="true" />
+                <element signature="e#781#787#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1285#1291#0" expanded="true" />
                 <element signature="e#1773#1779#0" expanded="true" />
-                <element signature="e#2249#2255#0" expanded="true" />
-                <element signature="e#2715#2721#0" expanded="true" />
-                <element signature="e#3183#3189#0" expanded="true" />
-                <element signature="e#3654#3660#0" expanded="true" />
-                <element signature="e#4121#4127#0" expanded="true" />
+                <element signature="e#2245#2251#0" expanded="true" />
+                <element signature="e#2721#2727#0" expanded="true" />
+                <element signature="e#3187#3193#0" expanded="true" />
+                <element signature="e#3655#3661#0" expanded="true" />
+                <element signature="e#4126#4132#0" expanded="true" />
+                <element signature="e#4593#4599#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.checkCardTest">
+  <component name="RunManager" selected="JUnit.PokerTest.betterThanStraightTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -189,13 +190,13 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="PokerTest.checkCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.betterThanStraightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Comp40004as1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="checkCardTest" />
+      <option name="METHOD_NAME" value="betterThanStraightTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -208,13 +209,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PokerTest.checkFourOfAKindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.checkCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Comp40004as1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="checkFourOfAKindTest" />
+      <option name="METHOD_NAME" value="checkCardTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -323,19 +324,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFourOfAKindTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkThreeAKindTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkCardTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkThreeAKindTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkCardTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.betterThanStraightTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkCardTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkThreeAKindTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFourOfAKindTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.betterThanStraightTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkCardTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkThreeAKindTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +354,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="PokerTest_betterThanStraightTest - 2018.10.10 at 03h 40m 10s.xml">
+      <configuration name="PokerTest.betterThanStraightTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PokerTest_checkCardTest - 2018.10.10 at 03h 35m 31s.xml">
       <configuration name="PokerTest.checkCardTest" configurationId="JUnit" />
     </history-entry>
@@ -373,9 +377,6 @@
     </history-entry>
     <history-entry file="PokerTest_checkRoyalFlushTest - 2018.10.09 at 20h 38m 02s.xml">
       <configuration name="PokerTest.checkRoyalFlushTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerTest_checkStraightTest2 - 2018.10.09 at 20h 06m 10s.xml">
-      <configuration name="PokerTest.checkStraightTest2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PokerTest_checkStrightFlushTest - 2018.10.09 at 20h 29m 42s.xml">
       <configuration name="PokerTest.checkStrightFlushTest" configurationId="JUnit" />
@@ -444,37 +445,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Poker.java">
+    <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="567">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#453#459#0" expanded="true" />
+            <element signature="e#781#787#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1285#1291#0" expanded="true" />
+            <element signature="e#1773#1779#0" expanded="true" />
+            <element signature="e#2245#2251#0" expanded="true" />
+            <element signature="e#2721#2727#0" expanded="true" />
+            <element signature="e#3187#3193#0" expanded="true" />
+            <element signature="e#3655#3661#0" expanded="true" />
+            <element signature="e#4126#4132#0" expanded="true" />
+            <element signature="e#4593#4599#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="243">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#309#315#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#813#819#0" expanded="true" />
-            <element signature="e#1301#1307#0" expanded="true" />
-            <element signature="e#1773#1779#0" expanded="true" />
-            <element signature="e#2249#2255#0" expanded="true" />
-            <element signature="e#2715#2721#0" expanded="true" />
-            <element signature="e#3183#3189#0" expanded="true" />
-            <element signature="e#3654#3660#0" expanded="true" />
-            <element signature="e#4121#4127#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
           </folding>
         </state>
       </provider>

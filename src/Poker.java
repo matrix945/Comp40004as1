@@ -6,6 +6,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Poker {
+
+//    public static boolean betterThanStraight(ArrayList<Card> t) {
+//        return ( checkStraight(t) || checkFlush(t) || checkFourOfAKind(t) || checkFullHouse(t) );
+//    }
+
+
+
     public static boolean checkCard(ArrayList<Card> t){
         return t.size() == 52;
     }

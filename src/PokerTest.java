@@ -10,6 +10,24 @@ public class PokerTest {
 
 
     @Test
+    public void betterThanStraightTest() {
+        Card a = new Card('C',1);
+        Card b = new Card('P',1);
+        Card c = new Card('h',1);
+        Card d = new Card('H',5);
+        Card e = new Card('C',5);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().betterThanStraight(arr);
+        assertEquals(true, z);
+    }
+
+
+    @Test
     public void checkCardTest() {
         Card a = new Card('C',4);
 
