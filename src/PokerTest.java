@@ -9,6 +9,24 @@ import static org.junit.Assert.fail;
 public class PokerTest {
 
     @Test
+    public void oneAwayStraightTest() {
+        Card a = new Card('C',1);
+        Card b = new Card('C',2);
+        Card c = new Card('C',3);
+        Card d = new Card('C',4);
+        Card e = new Card('H',9);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().oneAwayStraight(arr);
+        assertEquals(true, z);
+    }
+
+
+    @Test
     public void oneAwayFlushTest() {
         Card a = new Card('C',1);
         Card b = new Card('C',3);
