@@ -10,12 +10,10 @@ public class Poker {
     //Four of a kind: 4+1
     public static boolean checkFourOfAKind(ArrayList<Card> t) {
 
-        if ( (t.get(0).suit == t.get(1).suit) && (t.get(1).suit == t.get(2).suit) && (t.get(2).suit == t.get(3).suit)
-                && (t.get(3).suit == t.get(4).suit) ){
+        if ( (t.get(0).rank == t.get(1).rank) && (t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank)){
             return true;
         }
-        if ( (t.get(1).suit == t.get(2).suit) && (t.get(2).suit == t.get(3).suit) && (t.get(3).suit == t.get(4).suit)
-                && (t.get(4).suit == t.get(5).suit) ){
+        if ( (t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank) && (t.get(3).rank == t.get(4).rank)){
             return true;
         }
         return false;
