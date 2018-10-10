@@ -12,25 +12,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Poker.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Poker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1544">
-              <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="108">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PokerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PokerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="139" column="35" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="35" />
+            <state relative-caret-position="625">
+              <caret line="151" column="47" lean-forward="false" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
@@ -94,8 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/data" />
         <option value="$PROJECT_DIR$/src/Card.java" />
-        <option value="$PROJECT_DIR$/src/Poker.java" />
         <option value="$PROJECT_DIR$/src/PokerTest.java" />
+        <option value="$PROJECT_DIR$/src/Poker.java" />
       </list>
     </option>
   </component>
@@ -449,14 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -465,22 +457,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Poker.java">
+    <entry file="file://$PROJECT_DIR$/src/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1544">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="139" column="35" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="35" />
+        <state relative-caret-position="625">
+          <caret line="151" column="47" lean-forward="false" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#219#220#0" expanded="true" />
@@ -493,6 +481,18 @@
             <element signature="e#2894#2900#0" expanded="true" />
             <element signature="e#3365#3371#0" expanded="true" />
             <element signature="e#3832#3838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Poker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
           </folding>
         </state>
       </provider>

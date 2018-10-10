@@ -7,6 +7,26 @@ import java.util.Collections;
 
 public class Poker {
 
+    //11134
+    public static boolean checkThreeAKind(ArrayList<Card> t) {
+        //11134
+        if ( (t.get(0).rank == t.get(1).rank) && (t.get(1).rank == t.get(2).rank) && (t.get(2).rank != t.get(3).rank)
+                && (t.get(2).rank != t.get(4).rank) && (t.get(3).rank != t.get(4).rank)){
+            return true;
+        }
+        //13334
+        if ( (t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank) && (t.get(3).rank != t.get(4).rank)
+                && (t.get(3).rank != t.get(0).rank) && (t.get(0).rank != t.get(4).rank)){
+            return true;
+        }
+        //14555
+        if ( (t.get(2).rank == t.get(3).rank) && (t.get(3).rank == t.get(4).rank) && (t.get(0).rank != t.get(1).rank)
+                && (t.get(1).rank != t.get(2).rank) && (t.get(0).rank != t.get(2).rank)){
+            return true;
+        }
+
+        return false;
+    }
 
 
     public static boolean checkRoyalFlush(ArrayList<Card> t) {
