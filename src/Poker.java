@@ -7,6 +7,17 @@ import java.util.Collections;
 
 public class Poker {
 
+
+
+    public static boolean checkRoyalFlush(ArrayList<Card> t) {
+        if ( (t.get(0).rank == 1) && (t.get(1).rank == 10) && (t.get(2).rank == 11)&& (t.get(3).rank == 12)
+                && (t.get(4).rank == 13)  && ( checkFlush(t))){
+            return true;
+        }
+        return false;
+    }
+
+
     // 12345
     // AAAAA
     public static boolean checkStrightFlush(ArrayList<Card> t) {
