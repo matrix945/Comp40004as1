@@ -10,10 +10,10 @@ public class Poker {
     //Full house: same 3+2
     public static boolean checkFullHouse(ArrayList<Card> t) {
 
-        if ( (t.get(1).rank == t.get(2).rank) && (t.get(3).rank == t.get(4).rank) && (t.get(4).rank == t.get(5).rank) ){
+        if ( (t.get(0).rank == t.get(1).rank) && (t.get(1).rank == t.get(2).rank) && (t.get(3).rank == t.get(4).rank) ){
             return true;
         }
-        if ( (t.get(4).rank == t.get(5).rank) && (t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank) ){
+        if ( (t.get(0).rank == t.get(1).rank) && (t.get(2).rank == t.get(3).rank) && (t.get(3).rank == t.get(4).rank) ){
             return true;
         }
         return false;
