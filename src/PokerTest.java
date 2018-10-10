@@ -85,7 +85,23 @@ public class PokerTest {
 
     }
 
+    @Test
+    public void checkFourOfAKindTest() {
+        Card a = new Card('S',1);
+        Card b = new Card('H',1);
+        Card c = new Card('C',1);
+        Card d = new Card('D',1);
+        Card e = new Card('C',5);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().checkFourOfAKind(arr);
+        assertEquals(true, z);
 
+    }
 
 
 
