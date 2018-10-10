@@ -136,6 +136,25 @@ public class PokerTest {
         assertEquals(true, z);
     }
 
+    @Test
+    public void checkThreeAKindTest() {
+        Card a = new Card('S',1);
+        Card b = new Card('H',1);
+        Card c = new Card('P',1);
+        Card d = new Card('S',12);
+        Card e = new Card('S',13);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().checkThreeAKind(arr);
+        assertEquals(true, z);
+    }
+
+
+
 
 
 //    @After
