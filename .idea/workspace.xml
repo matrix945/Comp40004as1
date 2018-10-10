@@ -12,37 +12,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Poker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Poker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="216">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1535#1536#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PokerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PokerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="151" column="47" lean-forward="false" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="47" />
+            <state relative-caret-position="243">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#524#530#0" expanded="true" />
-                <element signature="e#1012#1018#0" expanded="true" />
-                <element signature="e#1484#1490#0" expanded="true" />
-                <element signature="e#1960#1966#0" expanded="true" />
-                <element signature="e#2426#2432#0" expanded="true" />
-                <element signature="e#2894#2900#0" expanded="true" />
-                <element signature="e#3365#3371#0" expanded="true" />
-                <element signature="e#3832#3838#0" expanded="true" />
+                <element signature="e#309#315#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#813#819#0" expanded="true" />
+                <element signature="e#1301#1307#0" expanded="true" />
+                <element signature="e#1773#1779#0" expanded="true" />
+                <element signature="e#2249#2255#0" expanded="true" />
+                <element signature="e#2715#2721#0" expanded="true" />
+                <element signature="e#3183#3189#0" expanded="true" />
+                <element signature="e#3654#3660#0" expanded="true" />
+                <element signature="e#4121#4127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +95,8 @@
       <list>
         <option value="$PROJECT_DIR$/data" />
         <option value="$PROJECT_DIR$/src/Card.java" />
-        <option value="$PROJECT_DIR$/src/PokerTest.java" />
         <option value="$PROJECT_DIR$/src/Poker.java" />
+        <option value="$PROJECT_DIR$/src/PokerTest.java" />
       </list>
     </option>
   </component>
@@ -165,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerTest.checkRoyalFlushTest">
+  <component name="RunManager" selected="JUnit.PokerTest.checkThreeAKindTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -243,13 +244,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PokerTest.checkStraightTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.checkStrightFlushTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Comp40004as1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="checkStraightTest2" />
+      <option name="METHOD_NAME" value="checkStrightFlushTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -262,13 +263,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PokerTest.checkStrightFlushTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerTest.checkThreeAKindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Comp40004as1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PokerTest" />
-      <option name="METHOD_NAME" value="checkStrightFlushTest" />
+      <option name="METHOD_NAME" value="checkThreeAKindTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -320,19 +321,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStraightTest2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFullHouseTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFourOfAKindTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFullHouseTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFourOfAKindTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkThreeAKindTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFourOfAKindTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFullHouseTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStraightTest2" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PokerTest.checkThreeAKindTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PokerTest.checkRoyalFlushTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PokerTest.checkStrightFlushTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFourOfAKindTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PokerTest.checkFullHouseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -368,9 +369,6 @@
     <history-entry file="PokerTest_checkRoyalFlushTest - 2018.10.09 at 20h 38m 02s.xml">
       <configuration name="PokerTest.checkRoyalFlushTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerTest_checkStraightTest - 2018.10.09 at 19h 59m 37s.xml">
-      <configuration name="PokerTest.checkStraightTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PokerTest_checkStraightTest2 - 2018.10.09 at 20h 03m 48s.xml">
       <configuration name="PokerTest.checkStraightTest2" configurationId="JUnit" />
     </history-entry>
@@ -380,58 +378,37 @@
     <history-entry file="PokerTest_checkStrightFlushTest - 2018.10.09 at 20h 29m 42s.xml">
       <configuration name="PokerTest.checkStrightFlushTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PokerTest_checkThreeAKindTest - 2018.10.09 at 21h 09m 40s.xml">
+      <configuration name="PokerTest.checkThreeAKindTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2566278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2566278" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2566278" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14114584" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -465,34 +442,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="151" column="47" lean-forward="false" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="47" />
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#524#530#0" expanded="true" />
-            <element signature="e#1012#1018#0" expanded="true" />
-            <element signature="e#1484#1490#0" expanded="true" />
-            <element signature="e#1960#1966#0" expanded="true" />
-            <element signature="e#2426#2432#0" expanded="true" />
-            <element signature="e#2894#2900#0" expanded="true" />
-            <element signature="e#3365#3371#0" expanded="true" />
-            <element signature="e#3832#3838#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Poker.java">
+    <entry file="file://$PROJECT_DIR$/src/PokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="243">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#309#315#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#813#819#0" expanded="true" />
+            <element signature="e#1301#1307#0" expanded="true" />
+            <element signature="e#1773#1779#0" expanded="true" />
+            <element signature="e#2249#2255#0" expanded="true" />
+            <element signature="e#2715#2721#0" expanded="true" />
+            <element signature="e#3183#3189#0" expanded="true" />
+            <element signature="e#3654#3660#0" expanded="true" />
+            <element signature="e#4121#4127#0" expanded="true" />
           </folding>
         </state>
       </provider>

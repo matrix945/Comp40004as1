@@ -8,6 +8,23 @@ import static org.junit.Assert.fail;
 
 public class PokerTest {
 
+
+    @Test
+    public void checkCardTest() {
+        Card a = new Card('C',4);
+
+        ArrayList<Card> arr = new ArrayList<Card>();
+        for(int i =0;i<52;i++){
+            arr.add(a);
+        }
+
+        boolean z = new Poker().checkCard(arr);
+        assertEquals(true, z);
+    }
+
+
+
+
     @Test
     public void test() {
         fail("Not yet implemented");
