@@ -19,7 +19,6 @@ public class Poker {
         return false;
     }
 
-
     //Full house: same 3+2
     public static boolean checkFullHouse(ArrayList<Card> t) {
 

@@ -100,9 +100,24 @@ public class PokerTest {
         arr.add(e);
         boolean z = new Poker().checkFourOfAKind(arr);
         assertEquals(true, z);
-
     }
 
+    @Test
+    public void checkStrightFlushTest() {
+        Card a = new Card('S',1);
+        Card b = new Card('S',2);
+        Card c = new Card('S',3);
+        Card d = new Card('S',4);
+        Card e = new Card('S',5);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().checkStrightFlush(arr);
+        assertEquals(true, z);
+    }
 
 
 
