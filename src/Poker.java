@@ -7,6 +7,39 @@ import java.util.Collections;
 
 public class Poker {
 
+
+    //AABBC
+    //AAABC
+    public static boolean oneAwayFullHouse(ArrayList<Card> t) {
+        //AAABC
+        if ((t.get(0).rank == t.get(1).rank) && (t.get(1).rank == t.get(2).rank) ){
+            return true;
+        }
+        //BAAAC
+        if ((t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank) ){
+            return true;
+        }
+        //BCAAA
+        if ((t.get(2).rank == t.get(3).rank) && (t.get(3).rank == t.get(4).rank) ){
+            return true;
+        }
+
+        //AABBC
+        if ((t.get(0).rank == t.get(1).rank) && (t.get(2).rank == t.get(3).rank) ){
+            return true;
+        }
+        //AACBB
+        if ((t.get(0).rank == t.get(1).rank) && (t.get(3).rank == t.get(4).rank) ){
+            return true;
+        }
+        //CAABB
+        if ((t.get(1).rank == t.get(2).rank) && (t.get(3).rank == t.get(4).rank) ){
+            return true;
+        }
+        return false;
+    }
+
+
     public static boolean betterThanStraight(ArrayList<Card> t) {
         return ( checkStraight(t) || checkFlush(t) || checkFourOfAKind(t) || checkFullHouse(t) );
     }
