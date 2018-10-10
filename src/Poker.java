@@ -7,8 +7,16 @@ import java.util.Collections;
 
 public class Poker {
     public static boolean checkStraight(ArrayList<Card> t) {
+        //special case
+        if ( (t.get(0).rank == 1) && (t.get(1).rank == 10) && (t.get(2).rank == 11)&& (t.get(3).rank == 12) && (t.get(4).rank == 13) ){
+            return true;
+        }
+
+
+
+
         for (int i = 0; i < 5; i++) {
-            if (t.get(0).rank != t.get(i).rank + i) {
+            if (t.get(i).rank != t.get(0).rank + i) {
                 return false;
             }
         }

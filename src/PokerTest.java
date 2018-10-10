@@ -50,22 +50,26 @@ public class PokerTest {
         boolean z = new Poker().checkStraight(arr);
         assertEquals(true, z);
 
-        Card aa = new Card('C',10);
-        Card bb = new Card('P',11);
-        Card cc = new Card('C',12);
-        Card dd = new Card('H',13);
-        Card ee = new Card('C',1);
-        ArrayList<Card> arr2 = new ArrayList<Card>();
-        arr.add(aa);
-        arr.add(bb);
-        arr.add(cc);
-        arr.add(dd);
-        arr.add(ee);
-        boolean z2 = new Poker().checkStraight(arr2);
-        assertEquals(true, z);
+
 
     }
 
+    @Test
+    public void checkStraightTest2() {
+        Card aa = new Card('C',1);
+        Card bb = new Card('P',10);
+        Card cc = new Card('C',11);
+        Card dd = new Card('H',12);
+        Card ee = new Card('C',13);
+        ArrayList<Card> arr2 = new ArrayList<Card>();
+        arr2.add(aa);
+        arr2.add(bb);
+        arr2.add(cc);
+        arr2.add(dd);
+        arr2.add(ee);
+        boolean z2 = new Poker().checkStraight(arr2);
+        assertEquals(true, z2);
+    }
 
 
 
