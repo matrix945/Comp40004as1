@@ -8,6 +8,23 @@ import static org.junit.Assert.fail;
 
 public class PokerTest {
 
+    @Test
+    public void oneAwayFlushTest() {
+        Card a = new Card('C',1);
+        Card b = new Card('C',3);
+        Card c = new Card('C',5);
+        Card d = new Card('C',7);
+        Card e = new Card('H',5);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().oneAwayFlush(arr);
+        assertEquals(true, z);
+    }
+
 
     @Test
     public void oneAwayFullHouseTest() {
@@ -25,13 +42,6 @@ public class PokerTest {
         boolean z = new Poker().oneAwayFullHouse(arr);
         assertEquals(true, z);
     }
-
-
-
-
-
-
-
 
 
     @Test
