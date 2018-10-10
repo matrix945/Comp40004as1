@@ -8,6 +8,43 @@ import java.util.Collections;
 public class Poker {
 
 
+
+    //three card in a seq
+    public boolean threeInSeq(ArrayList<Card> t){
+        if ( (t.get(0).rank == t.get(1).rank + 1) && (t.get(1).rank == t.get(2).rank + 1) ){
+            return true;
+        }
+        if ( (t.get(1).rank == t.get(2).rank + 1) && (t.get(2).rank == t.get(3).rank + 1) ){
+            return true;
+        }
+
+        if ( (t.get(2).rank == t.get(3).rank + 1) && (t.get(3).rank == t.get(4).rank + 1) ){
+            return true;
+        }
+        return false;
+    }
+
+
+
+    //3 cards same rank AAAXX
+    public boolean threeSameRank(ArrayList<Card> t){
+        //AAABC
+        if ((t.get(0).rank == t.get(1).rank) && (t.get(1).rank == t.get(2).rank) ){
+            return true;
+        }
+        //BAAAC
+        if ((t.get(1).rank == t.get(2).rank) && (t.get(2).rank == t.get(3).rank) ){
+            return true;
+        }
+        //BCAAA
+        if ((t.get(2).rank == t.get(3).rank) && (t.get(3).rank == t.get(4).rank) ){
+            return true;
+        }
+        return false;
+    }
+
+
+
     //one away from straight 12349
     //bug didn't handle 14567
     public boolean oneAwayStraight(ArrayList<Card> t){
@@ -184,7 +221,7 @@ public class Poker {
     public static void readCard() {
         ArrayList allGames = new ArrayList();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Mao\\eclipse-workspace\\Comp40004as1\\data"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("data"))) {
             String line;
             String[] tempArray;
             while ((line = br.readLine()) != null) {

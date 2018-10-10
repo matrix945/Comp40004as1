@@ -7,8 +7,78 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 public class PokerTest {
+    @Test
+    public void oneAwayRoyalFlushTest() {
+        Card a = new Card('C',1);
+        Card b = new Card('C',10);
+        Card c = new Card('C',11);
+        Card d = new Card('C',12);
+        Card e = new Card('H',13);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        fail("Not implement");
+    }
+
+    @Test
+    public void oneAwaystraightflushTest() {
+        Card a = new Card('C',2);
+        Card b = new Card('C',3);
+        Card c = new Card('C',4);
+        Card d = new Card('C',5);
+        Card e = new Card('H',9);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        fail("Not implement");
+    }
+
+    @Test
+    public void oneAwayAKindTest() {
+        Card a = new Card('C',2);
+        Card b = new Card('S',2);
+        Card c = new Card('D',2);
+        Card d = new Card('H',4);
+        Card e = new Card('H',5);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        fail("Not implement");
+    }
 
 
+
+
+
+
+
+
+
+    @Test
+    public void threeInSeqTest() {
+        Card a = new Card('C',2);
+        Card b = new Card('S',3);
+        Card c = new Card('H',4);
+        Card d = new Card('S',7);
+        Card e = new Card('H',9);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().threeInSeq(arr);
+        assertEquals(true, z);
+    }
 
 
     @Test
@@ -86,7 +156,6 @@ public class PokerTest {
         assertEquals(true, z);
     }
 
-
     @Test
     public void betterThanStraightTest() {
         Card a = new Card('C',1);
@@ -119,12 +188,6 @@ public class PokerTest {
     }
 
 
-
-
-    @Test
-    public void test() {
-        fail("Not yet implemented");
-    }
     @Test
     public void checkFlushTest() {
         Card a = new Card('C',4);
