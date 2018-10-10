@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Poker {
-
+    public static boolean checkCard(ArrayList<Card> t){
+        return t.size() == 52;
+    }
 
     //11134
     public static boolean checkThreeAKind(ArrayList<Card> t) {
