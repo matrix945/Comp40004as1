@@ -7,13 +7,11 @@ import java.util.Collections;
 
 public class Poker {
 
-    //Four of a kind: 4+1
+    // 12345
+    // AAAAA
     public static boolean checkStrightFlush(ArrayList<Card> t) {
         return (checkFlush(t) && checkStraight(t));
     }
-
-
-
 
     //Four of a kind: 4+1
     public static boolean checkFourOfAKind(ArrayList<Card> t) {

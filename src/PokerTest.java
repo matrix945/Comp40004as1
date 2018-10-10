@@ -119,7 +119,22 @@ public class PokerTest {
         assertEquals(true, z);
     }
 
-
+    @Test
+    public void checkRoyalFlushTest() {
+        Card a = new Card('S',1);
+        Card b = new Card('S',10);
+        Card c = new Card('S',11);
+        Card d = new Card('S',12);
+        Card e = new Card('S',13);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().checkRoyalFlush(arr);
+        assertEquals(true, z);
+    }
 
 
 
