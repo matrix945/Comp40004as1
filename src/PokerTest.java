@@ -12,9 +12,8 @@ public class PokerTest {
     public void test() {
         fail("Not yet implemented");
     }
-
     @Test
-    public void checkFlushtest() {
+    public void checkFlushTest() {
         Card a = new Card('C',4);
         Card b = new Card('C',6);
         Card c = new Card('C',8);
@@ -35,7 +34,6 @@ public class PokerTest {
     //12345
     //910111213A
     public void checkStraightTest() {
-
         Card a = new Card('C',1);
         Card b = new Card('P',2);
         Card c = new Card('C',3);
@@ -49,9 +47,6 @@ public class PokerTest {
         arr.add(e);
         boolean z = new Poker().checkStraight(arr);
         assertEquals(true, z);
-
-
-
     }
 
     @Test
@@ -70,6 +65,26 @@ public class PokerTest {
         boolean z2 = new Poker().checkStraight(arr2);
         assertEquals(true, z2);
     }
+
+    @Test
+    public void checkFullHouseTest() {
+
+        Card a = new Card('C',1);
+        Card b = new Card('P',1);
+        Card c = new Card('h',1);
+        Card d = new Card('H',5);
+        Card e = new Card('C',5);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().checkFullHouse(arr);
+        assertEquals(true, z);
+
+    }
+
 
 
 

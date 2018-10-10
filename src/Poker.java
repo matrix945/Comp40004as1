@@ -12,9 +12,6 @@ public class Poker {
             return true;
         }
 
-
-
-
         for (int i = 0; i < 5; i++) {
             if (t.get(i).rank != t.get(0).rank + i) {
                 return false;
