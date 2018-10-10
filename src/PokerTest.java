@@ -8,12 +8,37 @@ import static org.junit.Assert.fail;
 
 public class PokerTest {
 
+
+
+
+    @Test
+    public void threeSameRankTest() {
+        Card a = new Card('C',2);
+        Card b = new Card('S',2);
+        Card c = new Card('H',2);
+        Card d = new Card('S',5);
+        Card e = new Card('H',9);
+        ArrayList<Card> arr = new ArrayList<Card>();
+        arr.add(a);
+        arr.add(b);
+        arr.add(c);
+        arr.add(d);
+        arr.add(e);
+        boolean z = new Poker().threeSameRank(arr);
+        assertEquals(true, z);
+    }
+
+
+
+
+
+
     @Test
     public void oneAwayStraightTest() {
-        Card a = new Card('C',1);
-        Card b = new Card('C',2);
-        Card c = new Card('C',3);
-        Card d = new Card('C',4);
+        Card a = new Card('C',2);
+        Card b = new Card('C',3);
+        Card c = new Card('C',4);
+        Card d = new Card('C',5);
         Card e = new Card('H',9);
         ArrayList<Card> arr = new ArrayList<Card>();
         arr.add(a);

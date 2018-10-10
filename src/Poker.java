@@ -7,6 +7,28 @@ import java.util.Collections;
 
 public class Poker {
 
+
+    //one away from straight 12349
+    //bug didn't handle 14567
+    public boolean oneAwayStraight(ArrayList<Card> t){
+        int counter =0;
+        int position=0;
+        for (int i = 0; i < 5; i++) {
+            if (t.get(0).rank != t.get(i).rank + i) {
+                counter = counter +1 ;
+                position = i;
+            }
+        }
+        if (counter ==1){
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }
+
+
     public boolean oneAwayFlush(ArrayList<Card> t){
         int counter =0;
         int position=0;
